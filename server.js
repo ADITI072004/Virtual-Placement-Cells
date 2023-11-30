@@ -14,7 +14,7 @@ app.use(cors("*"));
 app.use("/college", collegeRoutes);
 app.use("/company", companyRoutes);
 
-// Setting up Database and Server to run in sync
+
 const PORT = 5000; 
 const start = async() =>{
     try {
